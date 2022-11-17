@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.fnugg-resort-search-results-wrapper {
+	position: relative;
+	z-index: 50;
+
+	.fnugg-resort-search-results {
+		position: absolute;
+		left: 0;
+		width: 100%;
+
+		button {
+			width: 100%;
+			background-color: #333334;
+			color: #fff;
+			border: none;
+			padding: 8px 16px;
+			cursor: pointer;
+			text-align: left;
+
+			&:hover {
+				background-color: #525050;
+			}
+		}
+	}
+}
+
+.fnugg-resort-content {
+	position: relative;
+
+	.fnugg-resort-refreshing {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 10;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
